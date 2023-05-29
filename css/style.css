@@ -1,0 +1,95 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+ width: 1170px;
+ margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+
+header{
+    margin-bottom: 100px;
+}
+
+.about--main{
+    display: flex
+}
+    
+.title-about{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 75px;
+    min-width: 228px;
+}
+
+.menu--item{
+    margin-left: 33px;
+    text-decoration: none;
+    color: black;
+}
+
+.about-text{
+    margin-left: 171px;
+}
+
+p{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height:24px;
+}
+
+.title--prising{
+    margin-top: 77px;
+    margin-bottom: 98px;
+    font-weight: 700;
+font-size: 60px;
+line-height: 75px;
+}
+
+.pricing--items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.prising--items{
+    width: 370px;
+    text-align: center;
+}
+
+.pricing--item li{
+    text-align: center;
+    margin-bottom: 30px;
+    width: 370px;
+    font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+}
+
+.pricing--item .title--prising--name{
+    margin-bottom: 12px;
+    text-align: left;
+     font-weight: 700;
+ font-size: 16px;
+ line-height: 22px;
+ }
+
+.pricing--items .title--prising--price{
+    font-weight: 300;
+font-size: 80px;
+line-height: 109px;
+}
+
+.pricing--items .title--prising--price sup{
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 54px
+}
+
+.pricing--item{
+    width: 370px;
+}
